@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) and (max-width:2000px){
+
    
 
 #toantrang { width:100%; height : auto; 
@@ -137,93 +137,8 @@ background-color: whitesmoke; padding-left:500px;
       #phan3 input {margin:10px 0; width:60%;height:30px; border-radius: 10px;}
       #phan3 button {width:150px; height:50px; border-radius: 5px; margin-left:150px;
       background-color: coral;}
-}
-
-@media only screen and (min-width: 320px) and (max-width:1023px){
-        
-    #toantrang { max-width:100%; height : auto; 
-        background-color: antiquewhite; background-size: 100% 100%;
-        }
-        #trencung { width:100%; height: 300px; 
-            background-image: url("trencung1.jpg"); background-repeat: no-repeat;
-           background-size: 100% 300px; position: relative;
-        }
-        #anhdd {width:100%; height:30px; border:1px solid red; position: absolute;
-        bottom:0; left:0; background-color:white;}
-        #anhdd img { width:30%;height:30px; float:left; }
-        #anhdd p {color: black; margin: 10px 0 10px 100px; }
-       #menu {display:none;}
-        
-       #phangiua {
-             
 
 
-       }
-       #text1 h1 {display: none;}    #text1 hr {display: none;}
-       #text1 h3 {text-align:center;}
-       #anh1 h3 {text-align:center;}
-       #anh11 img {display:none;}
-       #anh11 { width:80%;height:200px; border:1px solid red; margin: 0 auto;
-       background-image: url("anh2.jpg"); background-size: 100% 100%; }
-        
-       #text2 h1 {text-align:center; color:blue;} 
-       #text2 hr {display:none;}
-       #text2 h3 {display:none;}
-       
-       #anhhai {  width:80%;height:200px; border:1px solid red; margin: 0 auto;
-        background-image: url("anh41.jpg"); background-size: 100% 100%;}
-        #anhhai h3 {color:red; margin: 150px 0 10px 20px;}
-
-        #anhhai1 {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-            background-image: url("anh5.jpg"); background-size: 100% 100%;}
-            #anhhai1 h3 {color:red; margin: 150px 0 10px 20px;}
-
-            #anhhai2 {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-                background-image: url("anh1.jpg"); background-size: 100% 100%;}
-                #anhhai2 h3 {color:red; margin: 150px 0 10px 20px;}
-
-            #text3 h1 {text-align:center;color:blue;}
-            #text3 hr {display:none;}
-            #text3 h3 {display:none;}
-            #anhba {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-                background-image: url("anh8.jpg"); background-size: 100% 100%;}
-                #anhba h3 {color:red; margin: 150px 0 10px 20px;}
-                #anhba1 {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-                    background-image: url("anh6.jpg"); background-size: 100% 100%;}
-                    #anhba1 h3 {color:red; margin: 150px 0 10px 20px;}
-                #anhba2 h3 {display:none;}                  
-            
-            #text4 h1 {text-align:center;color:blue;}
-            #text4 hr {display:none;}
-            #text4 h3 {display:none;}
-            #anhbon {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-                background-image: url("nb1.jpg"); background-size: 100% 100%;}
-                #anhbon h3 {color:red; margin: 150px 0 10px 20px;}
-            #anhbon1 {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-                    background-image: url("nb2.jpg"); background-size: 100% 100%;}
-                    #anhbon1 h3 {color:red; margin: 150px 0 10px 20px;}
-            #anhbon2 h3 {display:none;}
-
-            #text5 hr {display:none;}
-            #text5 h3 {display:none;}
-            #text5 h1 {color:blue; text-align:center;}
-            #anhnam {  width:80%;height:200px; border:1px solid red; margin: 20px auto;
-                background-image: url("uc1.jpg"); background-size: 100% 100%;}
-                #anhnam h3 {color:red; margin: 150px 0 10px 20px;}
-            
-            #anhnam1 h3 {display:none;}
-            #anhnam2 h3 {display:none;}
-
-            #mangxh ul  {margin:0 0 0 20% ;}
-            
-            #mangxh hr {display:none;}
-            #mangxh form {margin:0 0 0 5% ;}
-            #mangxh h1 {text-align:center;}
-        #phan2 h1 {text-align:center;}
-        #phan2 img {margin: 0 auto;}
-
-
-  }
  
  
  
