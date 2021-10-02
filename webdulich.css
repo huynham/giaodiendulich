@@ -1,144 +1,155 @@
 
-   
-
 #toantrang { width:100%; height : auto; 
-background-color: antiquewhite;background-size: 100% 100%;
+background-color: antiquewhite;
 }
-#trencung { width:1900px; height: 900px; 
+#trencung { width:100%; height: 900px; 
     background-image: url("trencung1.jpg"); background-repeat: no-repeat;
    background-size: 100% 900px; position: relative;
 }
 #menu {
-width: 60%; height: 50px; text-align: center; 
+width: 80%; height: 50px; text-align: center; 
 position: absolute; bottom: 0;right:0px; padding-top:10px; background-color:whitesmoke;
-
 }
+#anhdd {width:20%; height:60px;  position: absolute; bottom:0;left:0;
+      background-color: whitesmoke; padding-left:200px;
+      }
+
 #menu li  {display: inline;  padding:10px; color: red; border-right : 1px solid red;
 }
 #menu li a{color: red; text-decoration: none; font-size: 20px;}
 #menu li:hover a {color:black;}
-#anhdd {width:40%; height:60px;  position: absolute; bottom:0;left:0;
-background-color: whitesmoke; padding-left:500px;
-}
 
 
-#phangiua{ height:3000px; width:60%; margin:auto;}
+
+#phangiua{ width:60%;height:auto ; margin: 0 auto;}
+#gioithieu { width: 100%; height:auto; position:relative;}
 #text1 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
 #text1 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
 #text1 hr {width: 100px; margin-bottom: 20px ; color:red;}
+#anh1 { width:45%; height:350px;
+   background-image: url("anhvn.jpg"); position: absolute; bottom:0px; left:30px;}
+      #anh1 h3 {position: absolute; bottom:10px; left:50px; color:white}
+#anh11 { width:45%; height:350px;   margin: 0 0 0 50% ; 
+      background-image: url("anh2.jpg"); background-size: 100% 100%;  }
+#anh11 img {display: block; margin: 0 auto;}
+#anh11 li {padding: 10px;}
+     
 
-#anh1 { width:500px; height:500px; border:1px solid red;  position:relative;
-   float:left; margin: 10px 30px 10px 30px ; background-image: url("anhvn.jpg");}
-#anh1 h3 {position: absolute; bottom: 20px; left:150px; color: white;}
-#anh11 { width:500px; height:500px; border:1px solid green;  margin: 30px 30px 10px 580px ;
-   background-image: url("anh2.jpg"); position: relative; }
-#anh11 img {position:absolute; top:50px; left:200px;}
-#anh11 ul {position:absolute; top:150px; left:50px;}
-#anh11 li {padding:10px;}
-   .nuocngoai1 {clear:left;}
-   .nuocngoai1 h1 { text-align: center; color:dodgerblue; margin:30px 0;}
-.nuocngoai1 hr {width: 100px; margin-bottom: 20px ; color:red;}
-.nuocngoai1 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
-
-
+#trongnuoc { width: 100%; height:auto;  position:relative;}
 #text2 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
 #text2 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
 #text2 hr {width: 100px; margin-bottom: 20px ; color:red;}
-#anhhai { width:350px; height:350px; border:1px solid green;  margin: 30px 10px 10px 10px ;
-   background-image: url("anh3.jpg"); position: relative; float:left; }
+#anhhai { width:30%; height:350px;   
+   background-image: url("anh3.jpg"); position: absolute; bottom:0px; left:0px;}
       #anhhai h3 {position: absolute; bottom:10px; left:50px; color:white}
-#anhhai1 { width:350px; height:350px; border:1px solid green;  margin: 50px 10px 10px 390px ;
-      background-image: url("anh5.jpg"); position: relative;  background-size: 100% 100%;}
-      #anhhai1 h3 {position: absolute; bottom:10px; left:50px; color:white}
-#anhhai2 { width:350px; height:350px; border:1px solid green;  
-         margin: -362px 10px 10px 770px ;
-         background-image: url("anhbana.jpg"); position: relative; 
+#anhhai1 { width:30%; height:350px;   margin: 0 auto ; 
+      background-image: url("anh5.jpg"); background-size: 100% 100%;  }
+      #anhhai1 h3 {text-align:center; color:white}
+#anhhai2 { width:30%; height:350px;   position: absolute; bottom:0px;
+      right:0px;
+         background-image: url("anhbana.jpg"); 
       background-size: 100% 100%;}
       #anhhai2 h3 {position: absolute; bottom:10px; left:50px; color:white}
 
 
-#text3 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
+      #quocte { width: 100%; height:auto; position:relative;}
+      #text3 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
       #text3 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
       #text3 hr {width: 100px; margin-bottom: 20px ; color:red;}
-      #anhba { width:350px; height:350px; border:1px solid green;  margin: 30px 10px 10px 10px ;
-         background-image: url("qt1.jpg"); position: relative; float:left; }
+      #anhba { width:30%; height:350px;
+         background-image: url("anh8.jpg"); position: absolute; bottom:0px; left:0px;}
             #anhba h3 {position: absolute; bottom:10px; left:50px; color:white}
-      #anhba1 { width:350px; height:350px; border:1px solid green;  margin: 50px 10px 10px 390px ;
-            background-image: url("qt2.jpg"); position: relative;  background-size: 100% 100%;}
-            #anhba1 h3 {position: absolute; bottom:10px; left:50px; color:white}
-      #anhba2 { width:350px; height:350px; border:1px solid green;  
-               margin: -362px 10px 10px 770px ;
-               background-image: url("qt3.jpg"); position: relative; 
+      #anhba1 { width:30%; height:350px; margin: 0 auto ; 
+            background-image: url("anh6.jpg"); background-size: 100% 100%;  }
+            #anhba1 h3 {text-align:center; color:white}
+      #anhba2 { width:30%; height:350px; position: absolute; bottom:0px;
+            right:0px;
+               background-image: url("qt3.jpg"); 
             background-size: 100% 100%;}
-      #anhba2 h3 {position: absolute; bottom:10px; left:50px; color:white}
+            #anhba2 h3 {position: absolute; bottom:10px; left:50px; color:white}
 
 
 
-#text4 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
-      #text4 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
-      #text4 hr {width: 100px; margin-bottom: 20px ; color:red;}
-      #anhbon { width:350px; height:350px; border:1px solid green;  margin: 30px 10px 10px 10px ;
-         background-image: url("nb1.jpg"); position: relative; float:left; }
-            #anhbon h3 {position: absolute; bottom:10px; left:50px; color:white}
-      #anhbon1 { width:350px; height:350px; border:1px solid green;  margin: 50px 10px 10px 390px ;
-            background-image: url("nb2.jpg"); position: relative;  background-size: 100% 100%;}
-            #anhbon1 h3 {position: absolute; bottom:10px; left:50px; color:white}
-      #anhbon2 { width:350px; height:350px; border:1px solid green;  
-               margin: -362px 10px 10px 770px ;
-               background-image: url("nb3.jpg"); position: relative; 
-            background-size: 100% 100%;}
-      #anhbon2 h3 {position: absolute; bottom:10px; left:50px; color:white}
+#nhatban { width: 100%; height:auto;  position:relative;}
+            #text4 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
+            #text4 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
+            #text4 hr {width: 100px; margin-bottom: 20px ; color:red;}
+            #anhbon { width:30%; height:350px; border:1px solid green;  ;
+               background-image: url("nb1.jpg"); position: absolute; bottom:0px; left:0px;}
+                  #anhbon h3 {position: absolute; bottom:10px; left:50px; color:white}
+            #anhbon1 { width:30%; height:350px; margin: 0 auto ; 
+                  background-image: url("nb2.jpg"); background-size: 100% 100%;  }
+                  #anhbon1 h3 {text-align:center; color:white}
+            #anhbon2 { width:30%; height:350px;   position: absolute; bottom:0px;
+                  right:0px;
+                     background-image: url("nb3.jpg"); 
+                  background-size: 100% 100%;}
+                  #anhbon2 h3 {position: absolute; bottom:10px; left:50px; color:white}
 
 
-#text5 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
-      #text5 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
-      #text5 hr {width: 100px; margin-bottom: 20px ; color:red;}
-      #anhnam { width:350px; height:350px; border:1px solid green;  margin: 30px 10px 10px 10px ;
-         background-image: url("uc1.jpg"); position: relative; float:left; }
-            #anhnam h3 {position: absolute; bottom:10px; left:50px; color:white}
-      #anhnam1 { width:350px; height:350px; border:1px solid green;  margin: 50px 10px 10px 390px ;
-            background-image: url("uc2.jpg"); position: relative;  background-size: 100% 100%;}
-            #anhnam1 h3 {position: absolute; bottom:10px; left:50px; color:white}
-      #anhnam2 { width:350px; height:350px; border:1px solid green;  
-               margin: -362px 10px 10px 770px ;
-               background-image: url("uc3.jpg"); position: relative; 
-            background-size: 100% 100%;}
-      #anhnam2 h3 {position: absolute; bottom:10px; left:50px; color:white}
+#uc { width: 100%; height:auto; position:relative;}
+                  #text5 h1{ text-align: center; color:dodgerblue; margin:50px 0 10px 0;}
+                  #text5 h3{ text-align: center; color: rgb(104, 86, 86); margin:10px 0 20px 0; }
+                  #text5 hr {width: 100px; margin-bottom: 20px ; color:red;}
+                  #anhnam { width:30%; height:350px;
+                     background-image: url("uc1.jpg"); position: absolute; bottom:0px; left:0px;}
+                        #anhnam h3 {position: absolute; bottom:10px; left:50px; color:white}
+                  #anhnam1 { width:30%; height:350px;   margin: 0 auto ; 
+                        background-image: url("uc2.jpg"); background-size: 100% 100%;  }
+                        #anhnam1 h3 {text-align:center; color:white}
+                  #anhnam2 { width:30%; height:350px;   position: absolute; bottom:0px;
+                        right:0px;
+                           background-image: url("uc3.jpg"); 
+                        background-size: 100% 100%;}
+                        #anhnam2 h3 {position: absolute; bottom:10px; left:50px; color:white}
 
 
-#duoicung { width:100%; height:auto;}
-     #mangxh {width:100%; height: 350px; border:1px solid green; background-color: slategrey;}
-        #mangxh li{margin: 10px 0 10px 810px; list-style-type: none; width: 300px;
-      padding: 10px 0 10px 0px;}
+#duoicung { width:100%; height:auto; margin: 20px 0 0 0;}
+     #mangxh {width:100%; height: auto;
+      background-color: slategrey; text-align:center;}
+        #mangxh li{margin: 5px auto; list-style-type: none; 
+      }
          #mangxh li:hover a {color:red;}
         #mangxh a {text-decoration: none; color: white; font-size:30px; text-align: center;}
-        #mangxh h1 { color:white; margin: 100px 0 10px 780px;}
-        #mangxh hr {width: 100px; margin:10px 0 0 930px; }
-        #mangxh form {height:60px; width:500px; margin:20px 0 0 780px;}
+        #mangxh h1 { color:white; margin: 20px auto; text-align: center;}
+        #mangxh hr {width: 100px; margin:10px auto; }
+        #mangxh form {height:60px; width:500px; margin:20px auto;}
         #mangxh button {height:50px; width:100px; border-radius: 20px; box-shadow: 2px 2px 10px red; }
         #mangxh button a {color:red; text-decoration: none; text-align: center; font-size: 15px;}
 
 
-#cuoitrang {width:100%;height:400px; position: relative;}
-#phan1 { width:30%; height:400px;  float:left;}
-  #phan1 img {margin:10px 0 0 40%;}
-  #phan1 ul {margin:50px 0 0 40%; }
-  #phan1 li {padding: 10px 0;}
-#phan2 { width:40%; height:400px;margin: 0 0 0 30%;}
-  #phan2 h1 {margin: 10px 0 0 40%;}
-  #phan2 img {margin: 50px 0 0 40%;}
+#cuoitrang {width:100% ; height:500px;  ; position:relative; 
+}
+#phan1 { width:30%; height:auto; position:absolute;
+left:0;top:0; }
+  #phan1 img {display:block; margin: 10px auto;}
+  
+  #phan1 li {padding: 10px 0;display: block;text-align:center;}
+#phan2 { width:40%; height:auto; margin: 0 auto; }
+  #phan2 h1 { text-align:center;}
+  #phan2 img {margin: 10px auto; display:block;}
   #phan2 p {margin: 50px 0 0 50px; }
   
-#phan3 { width:30%; height:400px; margin:-402px 0 0 70%;}
+#phan3 { width:30%; height:auto;  position:absolute;
+top:0; right:0; }
    
-          #phan3 form {width:500px; height:300px; margin:20px 0 0 20px; }
+          #phan3 form {width:80%; height:auto; margin:20px auto; }
           #phan3 fieldset {border-radius: 10px; border:1px solid black;}
           #phan3 h1{text-align: center;}
       #phan3 input {margin:10px 0; width:60%;height:30px; border-radius: 10px;}
-      #phan3 button {width:150px; height:50px; border-radius: 5px; margin-left:150px;
+      #phan3 button {width:150px; height:50px; border-radius: 5px; margin: 0 auto;
       background-color: coral;}
 
 
- 
- 
- 
+      @media screen and (min-width:320px) and (max-width:1023px){
+         
+            #phangiua{ width:100%;height:auto ; margin: 0 auto; }
+          #menu {
+            width: 100%; height: 50px; text-align: center; 
+           background-color:bisque;
+            }
+            #anhdd {
+                 display:none;
+                  }
+   
+}
